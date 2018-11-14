@@ -1,0 +1,41 @@
+<resources>
+            <style name="AppTheme.NoActionBar">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+            <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+            <item name="android:statusBarColor">@android:color/transparent</item>
+
+                <item name="android:windowEnterTransition">@transition/transition_fade</item>
+                <item name="android:windowExitTransition">@transition/transition_slide</item>
+                <item name="android:windowAllowEnterTransitionOverlap">false</item>
+                <item name="android:windowAllowReturnTransitionOverlap">false</item>
+            </style>
+
+    <style name="Tema4" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:colorBackground">@color/colorBackgroundFloating</item>
+        <item name="android:navigationBarColor">@color/red</item>
+        <item name="android:windowEnterTransition">@transition/transition_fade</item>
+        <item name="android:windowExitTransition">@transition/transition_slide</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+    </style>
+    <style name="AppTheme2" parent="android:Theme.Material">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowEnterTransition">@transition/transition_fade</item>
+        <item name="android:windowExitTransition">@transition/transition_slide</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowEnterTransition">@transition/transition_fade</item>
+        <item name="android:windowExitTransition">@transition/transition_slide</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+
+    </style>
+</resources>

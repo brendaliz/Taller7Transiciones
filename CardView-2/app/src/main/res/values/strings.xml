@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Aplicacion Series con Transicion</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_add_favourite">Agregar a favoritos</string>
+    <string name="action_play_next">Siguiente canción</string>
+    <string name="backdrop_title">Series del momento</string>
+    <string name="backdrop_subtitle">Las mejores 10</string>
+
+    <string name="favoritos">Agregar a favoritos</string>
+    <string name="siguiente">Siguiente Cancion</string>
+    <string name="descripcion">Descripcion: </string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Music application</string>
+    <string name="action_settings">Configuration</string>
+    <string name="action_add_favourite">Add to Favorites</string>
+    <string name="action_play_next">Next song</string>
+    <string name="backdrop_title">Music for the moment</string>
+    <string name="backdrop_subtitle">The best 10</string>
+
+    <string name="favoritos">Add to Favorites</string>
+    <string name="siguiente">Next song</string>
+    <string name="descripcion">Description: </string>
+</resources>

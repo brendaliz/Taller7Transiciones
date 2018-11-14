@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Mitema" parent="Theme.AppCompat.NoActionBar" />
+
+    <style name="Tema1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/red_a700</item>
+        <item name="android:colorBackground">@color/purple_900</item>
+        <item name="android:text">@string/backdrop_title</item>
+        <item name="android:imageWellStyle">@style/CardView.Dark</item>
+    </style>
+
+    <style name="tema2">
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#4a148c</item>
+    </style>
+
+    <style name="Tema3" parent="Theme.AppCompat.DayNight.Dialog" >
+        <item name="android:colorBackground">@color/colorBackgroundFloating</item>
+    </style>
+
+</resources>
